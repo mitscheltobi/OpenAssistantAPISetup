@@ -4,7 +4,7 @@
 
 ### Prerequisites
 To run the inferenceSetup.sh script (specifically to set up docker) you need to run this on Ubuntu.
-Also make sure to make the script executable ```sudo chmod +x inferenceSetup.sh``` and run it with priviledges ```sudo inferenceSetup.sh````
+Also make sure to make the script executable ```sudo chmod +x inferenceSetup.sh``` and run it with priviledges ```sudo inferenceSetup.sh```
 
 
 ### Steps
