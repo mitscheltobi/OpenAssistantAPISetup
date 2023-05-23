@@ -3,7 +3,7 @@
 ```git clone https://github.com/mitscheltobi/OpenAssistantAPISetup```
 
 ### Prerequisites
-To run the inferenceSetup.sh script (specifically to set up docker) you need to run this on Ubuntu.
+You need to run the inferenceSetup on Ubuntu (specifically to set up docker).
 Also make sure to make the script executable ```sudo chmod +x inferenceSetup.sh``` and run it with priviledges ```sudo inferenceSetup.sh```
 
 
