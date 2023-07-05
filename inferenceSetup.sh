@@ -28,4 +28,4 @@ mkdir -p "${PWD}/${model}/data"
 cd "${PWD}/${model}"
 pip3 install text-generation
 
-docker run --gpus-all --shm-size 1g -p 8080:80 -v $volume:/data ghcr.io/huggingface/text-generation-inference:latest --model-id $model --num-shard $num_shard
+docker run --gpus all --shm-size 1g -p 8080:80 -v $volume:/data ghcr.io/huggingface/text-generation-inference:latest --model-id $model --num-shard $num_shard
